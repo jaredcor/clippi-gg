@@ -59,13 +59,16 @@ const PostWidget = ({
                 {description}
             </Typography>
             {picturePath && (
-                <img 
+                <video
                     width="100%"
                     height="auto"
                     alt="post"
                     style={{ borderRadius: "0.75rem", marginTop: "0.75rem" }}
-                    src={`http://localhost:3001/assets/${picturePath}`}
+                    controls
+                    src={`http://localhost:3001/assets/${picturePath}`} 
+                    type="video/mp4" 
                 />
+
             )}
             <FlexBetween mt="0.25rem">
                 <FlexBetween gap="1rem">
