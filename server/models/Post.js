@@ -12,6 +12,12 @@ const postSchema = mongoose.Schema(
             min: 2,
             max: 50,
         },
+        slippiTag: {
+            type: String,
+            required: true,
+            min: 2,
+            max: 8,
+        },
         description: String,
         picturePath: String,
         userPicturePath: String,

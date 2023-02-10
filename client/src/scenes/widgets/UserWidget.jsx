@@ -121,7 +121,7 @@ const UserWidget = ({ userId, picturePath }) => {
 
                     <FlexBetween gap="1rem" mb="0.5rem">
                         <FlexBetween gap="1rem">
-                            <img src="../assets/twitter.png" alt="twitter" />
+                            <img src="../assets/discord.png" alt="discord" height="25px" width="25px"/>
                             <Box>
                                 <Typography color={main} fontWeight="500">
                                     Discord
@@ -134,7 +134,7 @@ const UserWidget = ({ userId, picturePath }) => {
 
                     <FlexBetween gap="1rem" mb="0.5rem">
                         <FlexBetween gap="1rem">
-                            <img src="../assets/twitter.png" alt="twitter" />
+                            <img src="../assets/twitch.png" alt="twitch" height="25px" width="25px"/>
                             <Box>
                                 <Typography color={main} fontWeight="500">
                                     Twitch
@@ -147,7 +147,7 @@ const UserWidget = ({ userId, picturePath }) => {
 
                     <FlexBetween gap="1rem">
                         <FlexBetween gap="1rem">
-                            <img src="../assets/linkedin.png" alt="linkedin" />
+                            <img src="../assets/twitter.png" alt="linkedin" />
                             <Box>
                                 <Typography color={main} fontWeight="500">
                                     Twitter
